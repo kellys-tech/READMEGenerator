@@ -1,8 +1,6 @@
-const questions=require("inquirer");
 const fs=require("fs");
 const inquirer=require("inquirer");
 const util = require('util');
-var markdown = require( "markdown" ).markdown;
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -65,40 +63,41 @@ inquirer.prompt ([
 
 const generateREADME = (answers) =>
 // function to write README file
-      `# ${answers.title}
-      ### Created by ${answers.name}
-      ## Table of Contents
-        - [Description](#description)
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributions](#contributions)
-        - [Tests](#tests)
-        - [Questions](#questions)
+`# ${answers.title}
 
+### Created by ${answers.name}
 
-      ## Description
-      * ${answers.description}
+## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributions](#contributions)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+## Description
+  * ${answers.description}
       
-      ## Intallation
-      * ${answers.install}
+## Installation
+  * ${answers.install}
       
-      ## Usage
-      * ${answers.uses}
+## Usage
+  * ${answers.uses}
       
-      ## License
-      * ${answers.license}
+## License
+  * ${answers.license}
       
-      ## Contributions
-      * ${answers.contribute}
+## Contributions
+  * ${answers.contribute}
       
-      ## Tests
-      * ${answers.test}
+## Tests
+  * ${answers.test}
      
-      ## Questions
-      ### If you have any questions, contact me through github or by email. 
-      * Github link: ${answers.github}
-      * Email: ${answers.email}`
+## Questions
+  ### If you have any questions, contact me through github or by email. 
+    * Github link: ${answers.github}
+    * Email: ${answers.email}`
 
  
   promptUser()
