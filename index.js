@@ -2,6 +2,7 @@ const questions=require("inquirer");
 const fs=require("fs");
 const inquirer=require("inquirer");
 const util = require('util');
+var markdown = require( "markdown" ).markdown;
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -26,7 +27,7 @@ inquirer.prompt ([
       {
         type: 'input',
         name: 'install',
-        message: 'Describe how to intall your project.',
+        message: 'Describe how to install your project.',
       },
       {
         type: 'input',
@@ -34,9 +35,10 @@ inquirer.prompt ([
         message: 'Describe how your project should be used.',
       },
       {
-        type: 'input',
+        type: 'rawlist',
         name: 'license',
         message: 'What licenses are you applying to your project?',
+        choices: ['MIT License', 'Apache License 2.0', 'GPLv3', 'Creative Commons'],
       },
       {
         type: 'input',
@@ -66,34 +68,34 @@ const generateREADME = (answers) =>
       `# ${answers.title}
       ### Created by ${answers.name}
       ## Table of Contents
-      ### [Description](#Description)
-      ### [Installation](#Installation)
-      ### [Usage](#Usage)
-      ### [License](#License)
-      ### [Contributions](#Contributions)
-      ### [Tests](#Tests)
-      ### [Have Questions][#Have Questions?]
+      ### 1.[Description](#description)
+      ### 2.[Installation](#installation)
+      ### 3.[Usage](#usage)
+      ### 4.[License](#license)
+      ### 5.[Contributions](#contributions)
+      ### 6.[Tests](#tests)
+      ### 7.[Questions][#questions]
 
 
-      ## Description
+      ## Description <a name="description"></a>
       * ${answers.description}
       
-      ## Intallation
+      ## Intallation <a name="installation"></a>
       * ${answers.install}
       
-      ## Usage
+      ## Usage <a name="usage"></a>
       * ${answers.uses}
       
-      ## License
+      ## License <a name="license"></a>
       * ${answers.license}
       
-      ## Contributions
+      ## Contributions <a name="contributions"></a>
       * ${answers.contribute}
       
-      ## Tests
+      ## Tests <a name="tests"></a>
       * ${answers.test}
      
-      ## Have Questions?
+      ## Have Questions? <a name="questions"></a>
       * Github link: ${answers.github}
       * Email: ${answers.email}`
 
