@@ -1,16 +1,104 @@
-// array of questions for user
-const questions = [
+const questions=require("inquirer");
+const fs=require("fs");
+const inquirer=require("inquirer");
+const util = require('util');
 
-];
+const writeFileAsync = util.promisify(fs.writeFile);
 
+// asking user questions
+const promptUser = () =>
+inquirer.prompt ([
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?',
+      },
+      {
+        type: 'input',
+        name: 'name',
+        message: 'What is your name?',
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Enter description of your project.',
+      },
+      {
+        type: 'input',
+        name: 'install',
+        message: 'Describe how to intall your project.',
+      },
+      {
+        type: 'input',
+        name: 'uses',
+        message: 'Describe how your project should be used.',
+      },
+      {
+        type: 'input',
+        name: 'license',
+        message: 'What licenses are you applying to your project?',
+      },
+      {
+        type: 'input',
+        name: 'contribute',
+        message: 'How can someone contribute to your project?',
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'What are the cases for testing your project?',
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your github link.',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email.',
+      },
+
+]);
+
+const generateREADME = (answers) =>
 // function to write README file
-function writeToFile(fileName, data) {
-}
+      `# ${answers.title}
+      ### Created by ${answers.name}
+      ## Table of Contents
+      ### [Description](#Description)
+      ### [Installation](#Installation)
+      ### [Usage](#Usage)
+      ### [License](#License)
+      ### [Contributions](#Contributions)
+      ### [Tests](#Tests)
+      ### [Have Questions][#Have Questions?]
 
-// function to initialize program
-function init() {
 
-}
+      ## Description
+      * ${answers.description}
+      
+      ## Intallation
+      * ${answers.install}
+      
+      ## Usage
+      * ${answers.uses}
+      
+      ## License
+      * ${answers.license}
+      
+      ## Contributions
+      * ${answers.contribute}
+      
+      ## Tests
+      * ${answers.test}
+     
+      ## Have Questions?
+      * Github link: ${answers.github}
+      * Email: ${answers.email}`
 
-// function call to initialize program
-init();
+ 
+  promptUser()
+  .then((answers) => writeFileAsync('readme.md', generateREADME(answers)))
+  .then(() => console.log('Successfully wrote to readme.md'))
+  .catch((err) => console.error(err));
