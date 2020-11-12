@@ -68,13 +68,13 @@ const generateREADME = (answers) =>
       `# ${answers.title}
       ### Created by ${answers.name}
       ## Table of Contents
-      ### 1.Description
-      ### 2.Installation
-      ### 3.Usage
-      ### 4.License
-      ### 5.Contributions
-      ### 6.Tests
-      ### 7.Questions
+        - [Description](#description)
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Contributions](#contributions)
+        - [Tests](#tests)
+        - [Questions](#questions)
 
 
       ## Description
