@@ -68,34 +68,35 @@ const generateREADME = (answers) =>
       `# ${answers.title}
       ### Created by ${answers.name}
       ## Table of Contents
-      ### 1.[Description](#description)
-      ### 2.[Installation](#installation)
-      ### 3.[Usage](#usage)
-      ### 4.[License](#license)
-      ### 5.[Contributions](#contributions)
-      ### 6.[Tests](#tests)
-      ### 7.[Questions][#questions]
+      ### 1.Description
+      ### 2.Installation
+      ### 3.Usage
+      ### 4.License
+      ### 5.Contributions
+      ### 6.Tests
+      ### 7.Questions
 
 
-      ## Description <a name="description"></a>
+      ## Description
       * ${answers.description}
       
-      ## Intallation <a name="installation"></a>
+      ## Intallation
       * ${answers.install}
       
-      ## Usage <a name="usage"></a>
+      ## Usage
       * ${answers.uses}
       
-      ## License <a name="license"></a>
+      ## License
       * ${answers.license}
       
-      ## Contributions <a name="contributions"></a>
+      ## Contributions
       * ${answers.contribute}
       
-      ## Tests <a name="tests"></a>
+      ## Tests
       * ${answers.test}
      
-      ## Have Questions? <a name="questions"></a>
+      ## Questions
+      ### If you have any questions, contact me through github or by email. 
       * Github link: ${answers.github}
       * Email: ${answers.email}`
 
