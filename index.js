@@ -68,7 +68,7 @@ const generateREADME = (answers) =>
 
 ### Created by ${answers.name}
 
-![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+[![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)]
 
 ## Table of Contents
   - [Description](#description)
@@ -106,6 +106,6 @@ const generateREADME = (answers) =>
 
  
   promptUser()
-  .then((answers) => writeFileAsync('readme.md', generateREADME(answers)))
-  .then(() => console.log('Successfully wrote to readme.md'))
+  .then((answers) => writeFileAsync('output/README.md', generateREADME(answers)))
+  .then(() => console.log('Successfully wrote to README.md'))
   .catch((err) => console.error(err));
