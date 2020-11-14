@@ -1,8 +1,8 @@
-# kelly's awesome project
+# kelly
 
-### Created by kelly
+### Created by asdf
 
-[![License](https://img.shields.io/badge/license-Mozilla-Public-License-blue.svg)]
+[![License](https://img.shields.io/badge/license-GNUGeneralPublicLicense-blue.svg)]
 
 ## Table of Contents
   - [Description](#description)
@@ -14,26 +14,26 @@
   - [Questions](#questions)
 
 ## Description
-  * as;lkdf
+  * asf
       
 ## Installation
-  * alskdjf
+  * asdf
       
 ## Usage
-  * flkasdkf
+  * asdf
       
 ## License
-  * This project is distributed under the Mozilla-Public-License license.
+  * This project is distributed under the GNUGeneralPublicLicense license.
 
-  By submitting a pull request to this project, you agree to license your contribution under the Mozilla-Public-License license.
+    By submitting a pull request to this project, you agree to license your contribution under the GNUGeneralPublicLicense license.
       
 ## Contributions
-  * alskdf
+  * asdf
       
 ## Tests
   * asdf
      
 ## Questions
   ### If you have any questions, contact me through github or by email. 
-    * Github link: ldijf
-    * Email: slkdjf
+    * Github link: asdf
+    * Email: asdf

@@ -36,7 +36,7 @@ inquirer.prompt ([
         type: 'rawlist',
         name: 'license',
         message: 'What licenses are you applying to your project?',
-        choices: ['MIT', 'Apache2.0', 'GNU-General-Public-License', 'Mozilla-Public-License'],
+        choices: ['MIT', 'Apache2.0', 'GNUGeneralPublicLicense', 'MozillaPublicLicense'],
       },
       {
         type: 'input',
@@ -91,7 +91,7 @@ const generateREADME = (answers) =>
 ## License
   * This project is distributed under the ${answers.license} license.
 
-  By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} license.
+    By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} license.
       
 ## Contributions
   * ${answers.contribute}
