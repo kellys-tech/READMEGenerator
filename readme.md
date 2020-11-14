@@ -1,6 +1,6 @@
-# my p roject
+# awesome project
 
-### Created by kelly
+### Created by kelly smih
 
 ## Table of Contents
   - [Description](#description)
@@ -12,19 +12,21 @@
   - [Questions](#questions)
 
 ## Description
-  * awesomeness
+  * my project of awesomeness
       
 ## Installation
-  * no install needed
+  * like this....
       
 ## Usage
-  * generate a simple readme
+  * to generate a readme
       
 ## License
-  * MIT License
+  * This project is distributed under the MIT License (see the LICENSE file in the project root).
+
+  By submitting a pull request to this project, you agree to license your contribution under the MIT License to this project.
       
 ## Contributions
-  * with money
+  * through github
       
 ## Tests
   * use it
@@ -32,4 +34,4 @@
 ## Questions
   ### If you have any questions, contact me through github or by email. 
     * Github link: kellys-tech
-    * Email: kellly@gmail
+    * Email: kellysmith.r77@gmail.com
