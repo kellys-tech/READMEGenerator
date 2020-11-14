@@ -1,6 +1,8 @@
-# awesome project
+# kelly
 
-### Created by kelly smih
+### Created by kellys
+
+## https://img.shields.io/badge/license-undefined-blue
 
 ## Table of Contents
   - [Description](#description)
@@ -12,24 +14,24 @@
   - [Questions](#questions)
 
 ## Description
-  * my project of awesomeness
+  * my project description
       
 ## Installation
-  * like this....
+  * how to install
       
 ## Usage
   * to generate a readme
       
 ## License
-  * This project is distributed under the MIT License (see the LICENSE file in the project root).
+  * This project is distributed under the MIT
 
-  By submitting a pull request to this project, you agree to license your contribution under the MIT License to this project.
+  By submitting a pull request to this project, you agree to license your contribution under the MIT to this project.
       
 ## Contributions
   * through github
       
 ## Tests
-  * use it
+  * using it
      
 ## Questions
   ### If you have any questions, contact me through github or by email. 

@@ -36,7 +36,7 @@ inquirer.prompt ([
         type: 'rawlist',
         name: 'license',
         message: 'What licenses are you applying to your project?',
-        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License', 'Mozilla Public License'],
+        choices: ['MIT', 'Apache2.0', 'GNU-General-Public-License', 'Mozilla-Public-License'],
       },
       {
         type: 'input',
@@ -61,11 +61,14 @@ inquirer.prompt ([
 
 ]);
 
+
 const generateREADME = (answers) =>
 // function to write README file
 `# ${answers.title}
 
 ### Created by ${answers.name}
+
+## https://img.shields.io/badge/license-${answers.licenses}-blue
 
 ## Table of Contents
   - [Description](#description)
@@ -86,7 +89,7 @@ const generateREADME = (answers) =>
   * ${answers.uses}
       
 ## License
-  * This project is distributed under the ${answers.license} (see the LICENSE file in the project root).
+  * This project is distributed under the ${answers.license}
 
   By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} to this project.
       
