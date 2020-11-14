@@ -1,8 +1,8 @@
-# kelly
+# my awesome project
 
-### Created by kellys
+### Created by kelly
 
-## https://img.shields.io/badge/license-undefined-blue
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
 
 ## Table of Contents
   - [Description](#description)
@@ -14,24 +14,24 @@
   - [Questions](#questions)
 
 ## Description
-  * my project description
+  * my project
       
 ## Installation
-  * how to install
+  * do not install
       
 ## Usage
-  * to generate a readme
+  * to generate a simple readme
       
 ## License
-  * This project is distributed under the MIT
+  * This project is distributed under the MIT license.
 
-  By submitting a pull request to this project, you agree to license your contribution under the MIT to this project.
+  By submitting a pull request to this project, you agree to license your contribution under the MIT license.
       
 ## Contributions
-  * through github
+  * with money
       
 ## Tests
-  * using it
+  * use it
      
 ## Questions
   ### If you have any questions, contact me through github or by email. 

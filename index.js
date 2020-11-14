@@ -68,7 +68,7 @@ const generateREADME = (answers) =>
 
 ### Created by ${answers.name}
 
-## https://img.shields.io/badge/license-${answers.licenses}-blue
+[![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)]
 
 ## Table of Contents
   - [Description](#description)
@@ -89,9 +89,9 @@ const generateREADME = (answers) =>
   * ${answers.uses}
       
 ## License
-  * This project is distributed under the ${answers.license}
+  * This project is distributed under the ${answers.license} license.
 
-  By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} to this project.
+  By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} license.
       
 ## Contributions
   * ${answers.contribute}
