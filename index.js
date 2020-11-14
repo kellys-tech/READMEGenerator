@@ -89,9 +89,9 @@ const generateREADME = (answers) =>
   * ${answers.uses}
       
 ## License
-  * This project is distributed under the ${answers.license} license.
+  * This project is distributed under the license ${answers.license}.
 
-    By submitting a pull request to this project, you agree to license your contribution under the ${answers.license} license.
+    By submitting a pull request to this project, you agree to license your contribution under the license ${answers.license}.
       
 ## Contributions
   * ${answers.contribute}
