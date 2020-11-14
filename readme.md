@@ -1,6 +1,7 @@
 # README Generator
 
 ### GitHubRepo:  https://github.com/kellys-tech/READMEGenerator
+### Video: https://youtu.be/ZUtEsdeVQoU
 
 
 *This is a simple README generator. When this file is run using node js, the user will be prompted with a series of questions related to their project. When all questions have been answered, a README.MD file will be generated in an output file. This is so this project README is not overwritten. The generated README will contain all information that the user entered, including a badge for the license that was selected.*
