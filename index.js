@@ -68,7 +68,7 @@ const generateREADME = (answers) =>
 
 ### Created by ${answers.name}
 
-[![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)]
+![License](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 ## Table of Contents
   - [Description](#description)

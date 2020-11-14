@@ -1,8 +1,8 @@
-# my awesome project
+# kelly
 
-### Created by kelly
+### Created by project
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
+![License](https://img.shields.io/badge/license-Mozilla-Public-License-blue.svg)
 
 ## Table of Contents
   - [Description](#description)
@@ -14,24 +14,24 @@
   - [Questions](#questions)
 
 ## Description
-  * my project
+  * readme generator
       
 ## Installation
-  * do not install
+  * no installation necessary
       
 ## Usage
-  * to generate a simple readme
+  * generate a simple readme.
       
 ## License
-  * This project is distributed under the MIT license.
+  * This project is distributed under the Mozilla-Public-License license.
 
-  By submitting a pull request to this project, you agree to license your contribution under the MIT license.
+  By submitting a pull request to this project, you agree to license your contribution under the Mozilla-Public-License license.
       
 ## Contributions
   * with money
       
 ## Tests
-  * use it
+  * using it
      
 ## Questions
   ### If you have any questions, contact me through github or by email. 
