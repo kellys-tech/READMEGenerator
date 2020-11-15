@@ -2,7 +2,7 @@
 
 ### Created by kelly
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
   - [Description](#description)
