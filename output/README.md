@@ -2,7 +2,7 @@
 
 ### Created by kelly
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-GNUGeneralPublicLicense-blue.svg)
 
 ## Table of Contents
   - [Description](#description)
@@ -17,15 +17,15 @@
   * kelly
       
 ## Installation
-  * kelly
+  * elly
       
 ## Usage
   * kelly
       
 ## License
-  * This project is distributed under the license MIT.
+  * This project is distributed under the license GNUGeneralPublicLicense.
 
-    By submitting a pull request to this project, you agree to license your contribution under the license MIT.
+    By submitting a pull request to this project, you agree to license your contribution under the license GNUGeneralPublicLicense.
       
 ## Contributions
   * kelly
