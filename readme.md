@@ -14,7 +14,7 @@
 
 ## Features
 ### How to use
-* The user will run this program in their terminal by entering 'node index.js'
+* The user will run this program in their terminal by entering `node index.js`
 * See Dependencies for a list of installs needed to run this program successfully
 
 ### Input
@@ -38,9 +38,9 @@
 - package-lock.json
 
 * User will need to install the following packages
-- 'npm init -y'
-- 'npm install inquirer'
-- 'npm i utils --save'
+- `npm init -y`
+- `npm install inquirer`
+- `npm i utils --save`
 
 ### Screenshots
 
